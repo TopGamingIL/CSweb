@@ -4,6 +4,6 @@
  
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<h1>welcome to my barber website</h1>
-<img src ="../pic1.jpg" />
+<h1>welcome to my blackjack website</h1>
+<img src ="../Blackjack.png" />
 </asp:Content>

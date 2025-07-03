@@ -67,8 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AspPage\AddApp.aspx" />
-    <Content Include="AspPage\BarberList.aspx" />
+    <Content Include="AspPage\Game.aspx" />
+    <Content Include="AspPage\PlayerLeaderboard.aspx" />
     <Content Include="AspPage\DELETE.aspx" />
     <Content Include="AspPage\Home.aspx" />
     <Content Include="AspPage\LoginPage.aspx" />
@@ -76,6 +76,60 @@
     <Content Include="AspPage\Register.aspx" />
     <Content Include="AspPage\SearchPage.aspx" />
     <Content Include="AspPage\UpdateUSER.aspx" />
+    <Content Include="Blackjack.png" />
+    <Content Include="Cards\_2c.png" />
+    <Content Include="Cards\_2d.png" />
+    <Content Include="Cards\_2h.png" />
+    <Content Include="Cards\_2s.png" />
+    <Content Include="Cards\_3c.png" />
+    <Content Include="Cards\_3d.png" />
+    <Content Include="Cards\_3h.png" />
+    <Content Include="Cards\_3s.png" />
+    <Content Include="Cards\_4c.png" />
+    <Content Include="Cards\_4d.png" />
+    <Content Include="Cards\_4h.png" />
+    <Content Include="Cards\_4s.png" />
+    <Content Include="Cards\_5c.png" />
+    <Content Include="Cards\_5d.png" />
+    <Content Include="Cards\_5h.png" />
+    <Content Include="Cards\_5s.png" />
+    <Content Include="Cards\_6c.png" />
+    <Content Include="Cards\_6d.png" />
+    <Content Include="Cards\_6h.png" />
+    <Content Include="Cards\_6s.png" />
+    <Content Include="Cards\_7c.png" />
+    <Content Include="Cards\_7d.png" />
+    <Content Include="Cards\_7h.png" />
+    <Content Include="Cards\_7s.png" />
+    <Content Include="Cards\_8c.png" />
+    <Content Include="Cards\_8d.png" />
+    <Content Include="Cards\_8h.png" />
+    <Content Include="Cards\_8s.png" />
+    <Content Include="Cards\_9c.png" />
+    <Content Include="Cards\_9d.png" />
+    <Content Include="Cards\_9h.png" />
+    <Content Include="Cards\_9s.png" />
+    <Content Include="Cards\_ac.png" />
+    <Content Include="Cards\_ad.png" />
+    <Content Include="Cards\_ah.png" />
+    <Content Include="Cards\_as.png" />
+    <Content Include="Cards\_back.png" />
+    <Content Include="Cards\_jc.png" />
+    <Content Include="Cards\_jd.png" />
+    <Content Include="Cards\_jh.png" />
+    <Content Include="Cards\_js.png" />
+    <Content Include="Cards\_kc.png" />
+    <Content Include="Cards\_kd.png" />
+    <Content Include="Cards\_kh.png" />
+    <Content Include="Cards\_ks.png" />
+    <Content Include="Cards\_qc.png" />
+    <Content Include="Cards\_qd.png" />
+    <Content Include="Cards\_qh.png" />
+    <Content Include="Cards\_qs.png" />
+    <Content Include="Cards\_tc.png" />
+    <Content Include="Cards\_td.png" />
+    <Content Include="Cards\_th.png" />
+    <Content Include="Cards\_ts.png" />
     <Content Include="Global.asax" />
     <Content Include="pic1.jpg" />
     <Content Include="HTML\MeiravOzer.aspx" />
@@ -83,20 +137,23 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppCode\Card.cs" />
+    <Compile Include="AppCode\Deck.cs" />
     <Compile Include="AppCode\Helper .cs" />
-    <Compile Include="AspPage\AddApp.aspx.cs">
-      <DependentUpon>AddApp.aspx</DependentUpon>
+    <Compile Include="AppCode\Player.cs" />
+    <Compile Include="AspPage\Game.aspx.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspPage\AddApp.aspx.designer.cs">
-      <DependentUpon>AddApp.aspx</DependentUpon>
+    <Compile Include="AspPage\Game.aspx.designer.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AspPage\BarberList.aspx.cs">
-      <DependentUpon>BarberList.aspx</DependentUpon>
+    <Compile Include="AspPage\PlayerLeaderboard.aspx.cs">
+      <DependentUpon>PlayerLeaderboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AspPage\BarberList.aspx.designer.cs">
-      <DependentUpon>BarberList.aspx</DependentUpon>
+    <Compile Include="AspPage\PlayerLeaderboard.aspx.designer.cs">
+      <DependentUpon>PlayerLeaderboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="AspPage\DELETE.aspx.cs">
       <DependentUpon>DELETE.aspx</DependentUpon>

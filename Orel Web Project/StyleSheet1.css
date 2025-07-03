@@ -1,7 +1,8 @@
 ﻿body {
-    background-color: lightblue;
+    background-color: #006400;
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 .center {
@@ -12,12 +13,12 @@
 }
 
 h1 {
-    background-color: lightblue;
+    background-color: #006400;
     text-align: center;
 }
 
 a {
-    color: hotpink;
+    color: white;
 }
 
 img {
@@ -61,12 +62,12 @@ input[type=submit] {
 
 
     input[type=submit]:hover {
-        background-color: #45a049;
+        background-color: #006400;
     }
 
 input[type=reset] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #006400;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -93,7 +94,7 @@ ul {
     padding: 0;
     overflow: hidden;
     /* background-color: #333;*/
-    background-color: lightblue;
+    background-color: #006400;
 }
 
 li {

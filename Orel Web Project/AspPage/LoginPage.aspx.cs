@@ -19,13 +19,13 @@ namespace Orel_Web_Project.AspPage
             if (this.IsPostBack)//הסבר נוסף יבוא
             {
 
-                string name = Request.Form["fname"].ToString();//לשנות
+                string username = Request.Form["username"].ToString();//לשנות
                 string pass = Request.Form["password"].ToString();//לצורך זיהוי 
 
-                if (name != null && pass != null)
+                if (username != null && pass != null)
 
                 {
-                    string loginsql = "SELECT * FROM Userstbl WHERE Uname = '" + name + "' AND Password = '" + pass + "'";
+                    string loginsql = "SELECT * FROM Userstbl WHERE Uname = '" + username + "' AND Password = '" + pass + "'";
                     if (Helper.IsExist(fileName, loginsql))
                     {
                         DataTable table = Helper.ExecuteDataTable(fileName, loginsql);

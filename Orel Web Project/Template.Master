@@ -5,26 +5,27 @@
 <html>
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" href="StyleSheet1.css">
+    <link rel="stylesheet" href="StyleSheet1.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body >
+<body>
     <ul>
-     <li>    <a href="~/AspPage/Home.aspx" id="home" runat="server"> home</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
- <li>    <a href="~/AspPage/AddApp.aspx" id="addapp" runat="server"> Add Appointment</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-<li> <a href="~/AspPage/Register.aspx" id="reg1" runat="server" > register</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-<li> <a href="~/AspPage/LoginPage.aspx" id="log" runat="server"> Login</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
- <li>   <a href="~/AspPage/BarberList.aspx" id="blist" runat="server"> List</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-  <li>   <a href="~/AspPage/SearchPage.aspx" id="search" runat="server"> Search</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-   <li>   <a href="~/AspPage/DELETE.aspx" id="del" runat="server">Delete</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-  <li>    <a href="~/AspPage/UpdateUSER.aspx" id="upd" runat="server"> Update</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-         <li>    <a href="~/AspPage/LogOutPage.aspx" id="out" runat="server"> LogOut</a>&nbsp  &nbsp  &nbsp  &nbsp</li>
-   
+        <li><a href="~/AspPage/Home.aspx" id="home" runat="server">home</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/AddApp.aspx" id="addapp" runat="server">Add Appointment</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/Register.aspx" id="reg1" runat="server">register</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/LoginPage.aspx" id="log" runat="server">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/BarberList.aspx" id="blist" runat="server">List</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/SearchPage.aspx" id="search" runat="server">Search</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/DELETE.aspx" id="del" runat="server">Delete</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/UpdateUSER.aspx" id="upd" runat="server">Update</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="~/AspPage/LogOutPage.aspx" id="out" runat="server">LogOut</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
     </ul>
-   
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-       
+
+    <form id="form1" runat="server">
+        <!-- Wrap BOTH placeholders inside the form -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server" />
+    </form>
 </body>
 </html>

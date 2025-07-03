@@ -7,128 +7,101 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Orel_Web_Project
+namespace Orel_Web_Project.AspPage
 {
 
 
-    public partial class Template
+    public partial class Game
     {
 
         /// <summary>
-        /// head control.
+        /// pnlDealerCards control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Panel pnlDealerCards;
 
         /// <summary>
-        /// home control.
+        /// lblDealerValue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor home;
+        protected global::System.Web.UI.WebControls.Label lblDealerValue;
 
         /// <summary>
-        /// addapp control.
+        /// pnlPlayerCards control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor addapp;
+        protected global::System.Web.UI.WebControls.Panel pnlPlayerCards;
 
         /// <summary>
-        /// reg1 control.
+        /// lblPlayerValue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor reg1;
+        protected global::System.Web.UI.WebControls.Label lblPlayerValue;
 
         /// <summary>
-        /// log control.
+        /// btnHit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor log;
+        protected global::System.Web.UI.WebControls.Button btnHit;
 
         /// <summary>
-        /// blist control.
+        /// btnStand control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor blist;
+        protected global::System.Web.UI.WebControls.Button btnStand;
 
         /// <summary>
-        /// search control.
+        /// btnDouble control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor search;
+        protected global::System.Web.UI.WebControls.Button btnDouble;
 
         /// <summary>
-        /// del control.
+        /// lblChips control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor del;
+        protected global::System.Web.UI.WebControls.Label lblChips;
 
         /// <summary>
-        /// upd control.
+        /// lblBet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor upd;
+        protected global::System.Web.UI.WebControls.Label lblBet;
 
         /// <summary>
-        /// out control.
+        /// btnPlayAgain control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor @out;
-
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// ContentPlaceHolder1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
-
-        /// <summary>
-        /// ContentPlaceHolder2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder2;
+        protected global::System.Web.UI.WebControls.Button btnPlayAgain;
     }
 }

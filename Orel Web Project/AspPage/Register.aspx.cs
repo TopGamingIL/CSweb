@@ -33,14 +33,13 @@ namespace Orel_Web_Project.AspPage
         private int Insert()
         {
             int success = -1;
+            string username = Request.Form["username"].ToString();
             string fname = Request.Form["fname"].ToString();
             string password = Request.Form["password"].ToString();
-            int isbarber = int.Parse(Request.Form["barber"].ToString());
-            string phoneNumber= Request.Form["phone"].ToString();
             
-            if(fname!=null&& password!=null)
+            if(username != null && fname != null && password != null)
             {//המרנו את המייל למספר טלפון כי האתר עוסק במספרה
-                string sql = "INSERT INTO Userstbl(Uname,Password,Mail,BornYear) VALUES('" + fname + "','" + password + "','" + phoneNumber + "','" + isbarber+ "')";
+                string sql = "INSERT INTO Userstbl(Uname,Password) VALUES('" + fname + "','" + password + ")";
                 Helper.DoQuery(fileName, sql);   
                 success = 1;
             }

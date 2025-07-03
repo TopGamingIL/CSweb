@@ -10,7 +10,7 @@
  
 
      
-           <input type="text" id="barber" name="barber" placeholder="barber name" />
+           <input type="text" id="player" name="player" placeholder="player username" />
 
       <br />
 

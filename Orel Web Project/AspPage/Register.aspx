@@ -9,21 +9,13 @@
     <form action="register.aspx" runat="server" method="post" class="myform"  >
 
  
-
+      <input type="text" id="username" name="username" placeholder="username"  />
       <input type="text" id="fname" name="fname" placeholder="first name"  />
-
-      <br />
-           <input type="text" id="barber" name="barber" placeholder="1-barber 2-client" />
-
-      <br />
 
       <input type="text" id="password" name="password" placeholder="password" />
 
       <br />
 
-
-     
-        <input type="text" id="phone" name="phone" placeholder="phone number" />
 
 <br />
         

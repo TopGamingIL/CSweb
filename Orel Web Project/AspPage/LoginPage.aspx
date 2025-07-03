@@ -8,7 +8,7 @@
 
  
 
-      <input type="text" id="fname" name="fname" placeholder="first name"  />
+      <input type="text" id="username" name="username" placeholder="username"  />
 
      
 
